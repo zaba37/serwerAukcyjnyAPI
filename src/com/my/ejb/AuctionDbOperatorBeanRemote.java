@@ -5,6 +5,7 @@
  */
 package com.my.ejb;
 
+import com.my.model.Customer;
 import javax.ejb.Remote;
 
 /**

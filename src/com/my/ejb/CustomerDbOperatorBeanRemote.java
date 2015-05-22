@@ -5,13 +5,19 @@
  */
 package com.my.ejb;
 
+import com.my.model.Address;
+import com.my.model.Customer;
+import com.my.model.CustomerLogin;
 import javax.ejb.Remote;
 
 /**
  *
  * @author zaba37
  */
+
 @Remote
 public interface CustomerDbOperatorBeanRemote {
-    //sdfsdfsdf
+        
+    boolean addCustomer(Customer customer, CustomerLogin customerLogin, Address address);
+
 }
